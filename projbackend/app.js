@@ -35,6 +35,7 @@ app.use("/api",authRoutes);
 //PORT
 const port = process.env.PORT || 8000;
 
+
 //Starting server
 app.listen(port, () => {
   console.log(`app is running at ${port}`);
